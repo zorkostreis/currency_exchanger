@@ -17,6 +17,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'debug', platforms: %i[ mri mingw x64_mingw ]
   gem 'vcr'
+  gem 'rswag-specs'
   gem 'webmock'
 
   %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|

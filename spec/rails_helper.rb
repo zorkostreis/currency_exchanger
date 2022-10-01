@@ -31,7 +31,7 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 
 VCR.configure do |config|
-  config.cassette_library_dir = "fixtures/vcr_cassettes"
+  config.cassette_library_dir = "spec/support/vcr_cassettes"
   config.hook_into :webmock
 
   config.filter_sensitive_data('<OPEN_EXCHANGE_RATES_APP_ID>') { ENV['OPENEXCHANGERATES_APP_ID'] }
