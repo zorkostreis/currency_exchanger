@@ -8,9 +8,10 @@
 
 В приложении реализованы:
 - Пагинация для списка валют - [kaminari](https://github.com/kaminari/kaminari)
+- Тесты - [RSpec](https://github.com/rspec/rspec-rails)
 - Интеграционные тесты и документация в формате [Swagger UI](https://swagger.io/tools/swagger-ui/) - [rswag](https://github.com/rswag/rswag)
 - `Rake task` для обновления данных в таблице с валютами
-- bearer аутентификация
+- Bearer аутентификация
 - Выполнение HTTP-запросов - [httparty](https://github.com/jnunemaker/httparty)
 
 ## Версия Ruby
